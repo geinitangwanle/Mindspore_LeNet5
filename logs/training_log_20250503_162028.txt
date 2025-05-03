@@ -1,0 +1,4 @@
+日志文件已创建: ./logs/training_log_20250503_162028.txt
+Tensor of image (18, 3, 224, 224)
+Labels: [18 12  5 17 16 14 24 14 13 15 19  4 14 18 11 18 23  6]
+Start Training Loop ...
