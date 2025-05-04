@@ -41,7 +41,7 @@ def main():
             print("未找到有效的类别目录")
             return
             
-        category = categories[1]
+        category = categories[2]
         category_path = os.path.join(train_dir, category)
         
         # 获取该类别下的图像文件

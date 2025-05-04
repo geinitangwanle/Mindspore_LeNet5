@@ -64,9 +64,6 @@ def prepare_dataset():
     return train_dataset, test_dataset
 
 class LeNet5(nn.Cell):
-    """
-    LeNet5模型定义
-    """
     def __init__(self):
         super(LeNet5, self).__init__()
         # 卷积层1，输入通道1，输出通道6，卷积核大小5x5
