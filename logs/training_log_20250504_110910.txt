@@ -1,0 +1,8 @@
+日志文件已创建: ./logs/training_log_20250504_110910.txt
+Tensor of image (18, 3, 224, 224)
+Labels: [12 12 10  2 11  2 20 23 16 11 11  3  8  5 25 10  0 20]
+冻结除全连接层外的所有参数...
+可训练参数: fc.weight
+可训练参数: fc.bias
+可训练参数数量: 2
+Start Training Loop ...

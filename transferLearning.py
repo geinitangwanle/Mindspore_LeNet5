@@ -319,6 +319,8 @@ avg_pool = nn.AvgPool2d(kernel_size=7)
 # 重置平均池化层
 network.avg_pool = avg_pool
 
+
+
 import mindspore as ms
 
 # 定义优化器和损失函数
@@ -405,8 +407,8 @@ def visualize_model(best_ckpt_path, val_ds):
     net = resnet50()
     # 全连接层输入层的大小
     in_channels = net.fc.in_channels
-    # 输出通道数大小为狼狗分类数2
-    head = nn.Dense(in_channels, 2)
+    # 输出通道数大小
+    head = nn.Dense(in_channels, 26)
     # 重置全连接层
     net.fc = head
     # 平均池化层kernel size为7
